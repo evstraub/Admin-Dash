@@ -5,8 +5,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin-Dash</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="reset.css" />
-  <body></body>
+
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="search">
+          <img class="magnify" src="icons/magnify.svg" />
+          <form><input type="text" placeholder="search" /></form>
+        </div>
+        <div class="presence">
+          <img class="bell" src="icons/bell-ring-outline.svg" />
+          <img class="profile-image" src="gif/skele.gif" />
+          <p class="username">Ethan Straub</p>
+        </div>
+        <div class="account-info">
+          <img class="profile-image" src="gif/skele.gif" />
+          <p class="greeting-text">
+            Hi there,<br />
+            <strong>Ethan Straub (@evstraub)</strong>
+          </p>
+        </div>
+        <div class="header-buttons">
+          <button type="button">New</button>
+          <button type="button">Upload</button>
+          <button type="button">Share</button>
+        </div>
+      </div>
+      <div class="sidebar">
+        <div class="dashgap">
+          <img
+            class="dash-image"
+            src="icons/view-dashboard-edit.svg"
+            alt="Dashboard"
+          />
+          <div class="sidebar-top sidebar-title">Dashboard</div>
+        </div>
+        <div class="home-commgap">
+          <img class="sidebar-images" src="icons/home-city.svg" alt="home" />
+          <div class="sidebar-title">Home</div>
+          <img
+            class="sidebar-images"
+            src="icons/face-man-profile.svg"
+            alt="Profile"
+          />
+          <div class="sidebar-title">Profile</div>
+          <img
+            class="sidebar-images"
+            src="icons/message-settings.svg"
+            alt="Messages"
+          />
+          <div class="sidebar-title">Messages</div>
+          <img class="sidebar-images" src="icons/history.svg" alt="History" />
+          <div class="sidebar-title">History</div>
+          <img class="sidebar-images" src="icons/file-tree.svg" alt="Tasks" />
+          <div class="sidebar-title">Tasks</div>
+          <img
+            class="sidebar-images"
+            src="icons/account-group.svg"
+            alt="Coomunities"
+          />
+          <div class="sidebar-title">Communities</div>
+        </div>
+        <div class="settings-privgap">
+          <img class="sidebar-images" src="icons/cog.svg" alt="Settings" />
+          <div class="sidebar-title">Settings</div>
+          <img
+            class="sidebar-images"
+            src="icons/face-agent.svg"
+            alt="Support"
+          />
+          <div class="sidebar-title">Support</div>
+          <img
+            class="sidebar-images"
+            src="icons/hand-back-left.svg"
+            alt="Privacy"
+          />
+          <div class="sidebar-title">Privacy</div>
+        </div>
+      </div>
+      <div class="main-content">
+        <p>Main Content</p>
+      </div>
+    </div>
+  </body>
 </html>
